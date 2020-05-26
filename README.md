@@ -1,6 +1,6 @@
 # closed_form_IPF
 
-Generalised and Linear Closed-form approximation of Power Flow
+Generalised and linear closed-form expressions for approximation of Power Flow
 
 This repository contains the MATLAB data and some source code used in the paper
 
