@@ -1,8 +1,8 @@
 # closed_form_IPF
 
-Generalised and Linear Closed-form approximation of Power Flow\
+Generalised and Linear Closed-form approximation of Power Flow
 
-This repository contains the MATLAB data and some source code used in the paper\
+This repository contains the MATLAB data and some source code used in the paper
 
 P. Pareek and H. D. Nguyen "Towards Closed-Form Approximation of Inverse Power Flow via Gaussian Process Learning"
 preprint available at: https:\\
@@ -10,5 +10,6 @@ preprint available at: https:\\
 The Description of codes is: 
 
 
-
-Un-modified 56-Bus system case file : https://github.com/saveriob/approx-pf
+- MatPower is available at http://www.pserc.cornell.edu/matpower/
+- Un-modified 56-Bus system case file : https://github.com/saveriob/approx-pf
+- GPML Toolbox for MATLAB: http://www.gaussianprocess.org/gpml/code/matlab/doc/ 
