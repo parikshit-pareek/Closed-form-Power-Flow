@@ -1,4 +1,4 @@
-# closed_form_IPF
+# closed-form-IPF
 
 Generalised and linear closed-form expressions for approximation of Power Flow
 
