@@ -1,5 +1,5 @@
 # Closed-form-Power-Flow
-===
+
 This file contain the code related to the paper: 
 
 Parikshit Pareek and Hung Nguyen, ["A Framework for Analytical Power Flow Solution using Gaussian Process Learning" IEEE Transactions on Sustainable Energy"](https://ieeexplore.ieee.org/document/9552521), Sept. 2021. [Preprint](https://www.researchgate.net/publication/354937182_A_Framework_for_Analytical_Power_Flow_Solution_using_Gaussian_Process_Learning)
