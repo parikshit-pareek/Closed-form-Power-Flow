@@ -6,7 +6,7 @@ Link: https://ieeexplore.ieee.org/document/9552521
 Preprint:  https://www.researchgate.net/publication/354937182_A_Framework_for_Analytical_Power_Flow_Solution_using_Gaussian_Process_Learning
 
 Cite As: 
-
+```
 @article{pareek2021framework,
   title={A Framework for Analytical Power Flow Solution using Gaussian Process Learning},
   author={Pareek, Parikshit and Nguyen, Hung D},
@@ -14,7 +14,7 @@ Cite As:
   year={2021},
   publisher={IEEE}
 }
-
+```
 
 In perticular, the code can be used to obtain the closed-form power flow expression and performance analysis results as given in table 1 and section V-A of the manuscript. 
 
