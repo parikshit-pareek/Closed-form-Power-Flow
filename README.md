@@ -58,6 +58,7 @@ D   : Number of random injections
 2. `maeV (maeTh)` : Mean Absolute Error Voltage Magnitude (Angle)
 
 3. `Mcskr` : Cell array for MCS Results
+```
        - V: [N_test × N_bus double]
       - erV_par: [N_test × N_bus double]
        - erV_L1: 0.037771 % L_1 Norm Error in |V|
@@ -68,7 +69,7 @@ D   : Number of random injections
      - erTh_L1: 2.6544 % L_1 Norm Error in Voltage Angle 
      - erTh_L2: 3.5956 % L_2 Norm Error in Voltage Angle 
     - erTh_Linf: 7.7006 % L_inf Norm Error in Voltage Angle 
-
+```
 
 
 4. D_learningkr: Learning data cell array, each array has a structre with data
