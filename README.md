@@ -2,8 +2,8 @@
 
 This file contain the code related to the paper: 
 Parikshit Pareek and Hung Nguyen, "A Framework for Analytical Power Flow Solution using Gaussian Process Learning" IEEE Transactions on Sustainable Energy, Sept. 2021. 
--Link: https://ieeexplore.ieee.org/document/9552521
--Preprint:  https://www.researchgate.net/publication/354937182_A_Framework_for_Analytical_Power_Flow_Solution_using_Gaussian_Process_Learning
+- Link: https://ieeexplore.ieee.org/document/9552521
+- Preprint:  https://www.researchgate.net/publication/354937182_A_Framework_for_Analytical_Power_Flow_Solution_using_Gaussian_Process_Learning
 
 Cite As: 
 ```
@@ -59,17 +59,16 @@ D   : Number of random injections
 
 3. `Mcskr` : Cell array for MCS Results
 
-       -V: [N_test × N_bus double double]
-      -erV_par: [N_test × N_bus double]
-       -erV_L1: 0.037771 % L_1 Norm Error in |V|
-      -erV_L2: 0.024608 % L_2 Norm Error in |V|
-     -erV_Linf: 0.062861 % L_inf Norm Error in |V|
-
-         -Thac: [N_test × N_bus double double]
+       - V: [N_test × N_bus double double]
+      - erV_par: [N_test × N_bus double]
+       - erV_L1: 0.037771 % L_1 Norm Error in |V|
+      - erV_L2: 0.024608 % L_2 Norm Error in |V|
+     - erV_Linf: 0.062861 % L_inf Norm Error in |V|
+     - Thac: [N_test × N_bus double double]
     - erTh_par: [N_test × N_bus double double]
-      -erTh_L1: 2.6544 % L_1 Norm Error in Voltage Angle 
-      -erTh_L2: 3.5956 % L_2 Norm Error in Voltage Angle 
-    -erTh_Linf: 7.7006 % L_inf Norm Error in Voltage Angle 
+     - erTh_L1: 2.6544 % L_1 Norm Error in Voltage Angle 
+     - erTh_L2: 3.5956 % L_2 Norm Error in Voltage Angle 
+    - erTh_Linf: 7.7006 % L_inf Norm Error in Voltage Angle 
 
 
 
