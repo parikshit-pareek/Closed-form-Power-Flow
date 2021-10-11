@@ -1,9 +1,10 @@
 # Closed-form-Power-Flow
 
 This file contain the code related to the paper: 
+
 Parikshit Pareek and Hung Nguyen, "A Framework for Analytical Power Flow Solution using Gaussian Process Learning" IEEE Transactions on Sustainable Energy, Sept. 2021. 
-- Link: https://ieeexplore.ieee.org/document/9552521
-- Preprint:  https://www.researchgate.net/publication/354937182_A_Framework_for_Analytical_Power_Flow_Solution_using_Gaussian_Process_Learning
+[Link](https://ieeexplore.ieee.org/document/9552521) 
+[Preprint](https://www.researchgate.net/publication/354937182_A_Framework_for_Analytical_Power_Flow_Solution_using_Gaussian_Process_Learning)
 
 Cite As: 
 ```
@@ -29,7 +30,7 @@ In perticular, the code can be used to obtain the closed-form power flow express
 ## Dependencies: 
 GAUSSIAN PROCESS REGRESSION AND CLASSIFICATION Toolbox version 4.2 for GNU Octave 3.2.x and Matlab 7.x and higher.
 Copyright (c) by Carl Edward Rasmussen and Hannes Nickisch, 2018-06-11.
-Link: http://www.gaussianprocess.org/gpml/code/matlab/doc/
+[Link](http://www.gaussianprocess.org/gpml/code/matlab/doc/)
 
 *Newer GPML toolbox might require matching hyperparmeter initialization.
 
