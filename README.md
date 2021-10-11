@@ -26,16 +26,16 @@ In perticular, the code can be used to obtain the closed-form power flow express
 `runpf_complete.m` : MATPOWER codes combined together to avid dependencies 
 `Sampling_Jaco.m`  : Cover to 'runpf' for obtaining power flow datasets
 
-Dependencies: 
+## Dependencies: 
 GAUSSIAN PROCESS REGRESSION AND CLASSIFICATION Toolbox version 4.2 for GNU Octave 3.2.x and Matlab 7.x and higher.
 Copyright (c) by Carl Edward Rasmussen and Hannes Nickisch, 2018-06-11.
 Link: http://www.gaussianprocess.org/gpml/code/matlab/doc/
 
-Newer GPML toolbox might require matching hyperparmeter initialization.
+*Newer GPML toolbox might require matching hyperparmeter initialization.
 
-Variables and Code Outputs: 
+## Variables and Code Outputs: 
 
-1. Loutkr : Cell array containing structre of results for each kernel
+1. `Loutkr` : Cell array containing structre of results for each kernel
 
 N_train: Number of training samples
 N_bus : Number of PQ buses
@@ -55,16 +55,15 @@ D   : Number of random injections
      sf_lTh: [#Hyper_parameters × N_bus double] : Hyper-parameters for Voltage Angle learning
        ytTh: [N_train × N_bus double] :  Training samples of Voltage Angle
 
-2. maeV (maeTh) : Mean Absolute Error Voltage Magnitude (Angle)
+2. `maeV (maeTh)` : Mean Absolute Error Voltage Magnitude (Angle)
 
-3. Mcskr : Cell array for MCS Results
+3. `Mcskr` : Cell array for MCS Results
 
-
-          ` V: [N_test × N_bus double double]
-      erV_par: [N_test × N_bus double double]
-       erV_L1: 0.037771 % L_1 Norm Error in |V|
-       erV_L2: 0.024608 % L_2 Norm Error in |V|
-     erV_Linf: 0.062861 % L_inf Norm Error in |V|`
+           V: [N_test × N_bus double double]
+      `erV_par: [N_test × N_bus double double]`
+       `erV_L1: 0.037771 % L_1 Norm Error in |V|`
+      `erV_L2: 0.024608 % L_2 Norm Error in |V|`
+     `erV_Linf: 0.062861 % L_inf Norm Error in |V|`
 
          Thac: [N_test × N_bus double double]
      erTh_par: [N_test × N_bus double double]
