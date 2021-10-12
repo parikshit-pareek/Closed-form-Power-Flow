@@ -18,19 +18,19 @@ Cite As:
 In perticular, the code can be used to obtain the closed-form power flow expression and performance analysis results as given in table 1 and section V-A of the manuscript. 
 
 ## Details of Files: 
-`CFPF_multikernel.m` : Main file to run the code for obtaining the CFPF Approximation and Performance for different kernels.
-`input_dataset_Load.m` : Creating load data set for training and testing 
-`MCS_output.m`    : Monte-Carlo Simulation to obtain testing data points
-`rand_sample_x.m` : Generating random samples
-`runpf_complete.m` : MATPOWER codes combined together to avid dependencies 
-`Sampling_Jaco.m`  : Cover to 'runpf' for obtaining power flow datasets
+- `CFPF_multikernel.m` : Main file to run the code for obtaining the CFPF Approximation and Performance for different kernels.
+- `input_dataset_Load.m` : Creating load data set for training and testing 
+- `MCS_output.m`    : Monte-Carlo Simulation to obtain testing data points
+- `rand_sample_x.m` : Generating random samples
+- `runpf_complete.m` : MATPOWER codes combined together to avid downloading 
+- `Sampling_Jaco.m`  : Cover to 'runpf' for obtaining power flow datasets
 
 ## Dependencies: 
 GAUSSIAN PROCESS REGRESSION AND CLASSIFICATION Toolbox version 4.2 for GNU Octave 3.2.x and Matlab 7.x and higher.
 Copyright (c) by Carl Edward Rasmussen and Hannes Nickisch, 2018-06-11.
 [Link](http://www.gaussianprocess.org/gpml/code/matlab/doc/)
 
-*Newer GPML toolbox might require matching hyperparmeter initialization.
+* Newer GPML toolbox might require matching hyperparmeter initialization.
 
 ## Variables and Code Outputs: 
 
