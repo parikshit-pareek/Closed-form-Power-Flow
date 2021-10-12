@@ -30,7 +30,7 @@ GAUSSIAN PROCESS REGRESSION AND CLASSIFICATION Toolbox version 4.2 for GNU Octav
 Copyright (c) by Carl Edward Rasmussen and Hannes Nickisch, 2018-06-11.
 [Link](http://www.gaussianprocess.org/gpml/code/matlab/doc/)
 
-* Newer GPML toolbox might require matching hyperparmeter initialization.
+* Newer GPML toolbox might require matching hyperparameter initialization.
 
 ## Variables and Code Outputs: 
 
@@ -77,3 +77,4 @@ D   : Number of random injections
                    xs: [N_test × D double]  Testing dataset 
 ```
 Other variable names are self explaintory
+- All the codes are tested on MATLAB R2020b
