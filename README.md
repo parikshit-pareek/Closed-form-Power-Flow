@@ -30,7 +30,9 @@ GAUSSIAN PROCESS REGRESSION AND CLASSIFICATION Toolbox version 4.2 for GNU Octav
 Copyright (c) by Carl Edward Rasmussen and Hannes Nickisch, 2018-06-11.
 [Link](http://www.gaussianprocess.org/gpml/code/matlab/doc/)
 
-* Newer GPML toolbox might require matching hyperparameter initialization.
+
+
+* Newer GPML toolbox might require matching hyperparameter initialization. To avoid such issues, I have uploaded the GPML Toolbox version I use. 
 
 ## Variables and Code Outputs: 
 
