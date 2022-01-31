@@ -6,12 +6,14 @@ Parikshit Pareek and Hung Nguyen, ["A Framework for Analytical Power Flow Soluti
 
 Cite As: 
 ```
-@article{pareek2021framework,
-  title={A Framework for Analytical Power Flow Solution using Gaussian Process Learning},
+@article{pareek2022framework,
+  title={A Framework for Analytical Power Flow Solution Using Gaussian Process Learning},
   author={Pareek, Parikshit and Nguyen, Hung D},
   journal={IEEE Transactions on Sustainable Energy},
-  year={2021},
-  publisher={IEEE}
+  volume={13},
+  number={1},
+  pages={452--463},
+  year={2022}
 }
 ```
 
