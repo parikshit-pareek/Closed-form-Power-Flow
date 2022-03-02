@@ -17,7 +17,7 @@ Cite As:
 }
 ```
 
-In perticular, the code can be used to obtain the closed-form power flow expression and performance analysis results as given in table 1 and section V-A of the manuscript. 
+In particular, the code can be used to obtain the closed-form power flow expression and performance analysis results as given in table 1 and section V-A of the manuscript. 
 
 ## Details of Files: 
 - `CFPF_multikernel.m` : Main file to run the code for obtaining the CFPF Approximation and Performance for different kernels.
