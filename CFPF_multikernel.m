@@ -131,7 +131,20 @@ end
 Lout.alphaV =alphaV;  Lout.muV = muV; % Lout.Smax_V=max_V;  Lout.Smin_V=min_V;  
   Lout.s2V = s2V; Lout.sf_lV=sf_lV;  Lout.ytV = ytV; %Lout.K=K; Lout.btaV=btaV; Lout.rkhs_sqV=rkhs_sqV; 
 
+% Standarad Form of Linear Function of voltage: V= W*s + C
+if kr==1
+      for k=1:length(pqbus)
+                % Making the constraint 
+                bV(:,:,k)=xx.*repmat(alphaV(:,k),[1,D]);
+                wV(:,k)= sum(bV(:,:,k));
+                WV(:,k) = (sf_lV(3,k)*sf_lV(3,k)*wV(:,k))/(sf_lV(1,k)^2);
+                CV(k)=sf_lV(3,k)*sf_lV(3,k)*sf_lV(2,k)*sum(alphaV(:,k));                          
+      end 
+      WV=WV'; CV=CV';
 
+Lout.WV=WV;
+Lout.CV=CV;
+end
 
 %% ======= Using parallel programming for learning Voltage solution ==========
 parfor k=1:length(pvqbus)
